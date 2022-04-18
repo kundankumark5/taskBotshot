@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6862],{6862:function(t,o,n){n.r(o),n.d(o,{default:function(){return c}});var u=n(5893),e=n(3159),r=(n(7294),{color:{backgroundColor:"custom.white"}}),c=function(){return(0,u.jsx)(e.YC,{title:"Integrations",customStyles:r.color,showButton:!1})}}}]);
