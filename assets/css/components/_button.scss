@@ -1,0 +1,32 @@
+.button {
+  background-color: #f3ab02;
+  border-radius: 12px;
+  color: #fff;
+  @include fontweight(500);
+  width: 197px;
+  height: 46px;
+  @include fntSz(0.75rem);
+
+  @include marg(0,0,0,18%);
+}
+
+
+
+.circle button {
+  color: $blk;
+  font-size: 26px;
+  font-weight: 700;
+  background: transparent;
+  border: transparent;
+  padding: 5px 40px;
+  line-height: 55px;
+
+  border-radius: 50px;
+}
+.circlebutton1, .circle button:hover {
+  background-color: $TxtCl;
+  border-color: $TxtCl;
+  color: #fff;
+  opacity: 1;
+}
+ 

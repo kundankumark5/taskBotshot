@@ -1,0 +1,40 @@
+@mixin autoMrg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin fontweight($a) {
+    font-weight: $a;
+}
+
+@mixin flx {
+    display: flex;
+}
+
+@mixin fntSz($sz){
+    font-size: $sz;
+}
+
+@mixin marg($t,$r,$b,$l) {
+        margin-top: $t;
+        margin-right: $r;
+        margin-bottom: $b;
+        margin-left: $l;
+}
+
+@mixin paraTxt($fntClr,$TxtSz,$fntWt,$lnHeight){
+    color: $fntClr;
+  font-weight: $fntWt;
+  line-height: $lnHeight;
+  font-size: $TxtSz;
+}
+
+@mixin positionLeft($top,$left) {
+    top: $top;
+    left: $left;
+}
+
+@mixin positionRight($top,$right) {
+    top: $top;
+    right: $right;
+}
